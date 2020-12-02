@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.play
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, aws-lambda, data, data-jpa, hibernate-jpa, http-client, java, java-application, jdbc-hikari, junit, logback, lombok, maven, mysql, readme, shade, testcontainers, yaml]

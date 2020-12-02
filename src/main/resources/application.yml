@@ -1,0 +1,23 @@
+micronaut:
+  environment: default
+  application:
+    name: micronautExplore
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/play?useSSL=false
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    dialect: MYSQL
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+        update: true
+        show_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type: TRACE
